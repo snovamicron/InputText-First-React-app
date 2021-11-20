@@ -4,8 +4,11 @@ import NavBar from './components/NavBar'
 
 
 const App = () => {
-  const [mode, setMode] = React.useState('light')
-  const changeMode = ()=> mode === 'light'? setMode('dark'):setMode('light')
+  const [mode, setMode] = React.useState(localStorage.getItem("mode")?localStorage.getItem("mode"):"light")
+  localStorage.setItem("mode", mode)
+  const changeMode = ()=> {
+    mode === 'light'? setMode('dark'):setMode('light')
+  }
   const navBarProps = {
     webTitle: "Basic React Tutorial",
     home: "Home1",
