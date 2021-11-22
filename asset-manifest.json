@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/InputText-First-React-app/static/js/main.b9d39cf3.chunk.js",
+    "main.js.map": "/InputText-First-React-app/static/js/main.b9d39cf3.chunk.js.map",
+    "runtime-main.js": "/InputText-First-React-app/static/js/runtime-main.97dceef2.js",
+    "runtime-main.js.map": "/InputText-First-React-app/static/js/runtime-main.97dceef2.js.map",
+    "static/js/2.835f8400.chunk.js": "/InputText-First-React-app/static/js/2.835f8400.chunk.js",
+    "static/js/2.835f8400.chunk.js.map": "/InputText-First-React-app/static/js/2.835f8400.chunk.js.map",
+    "index.html": "/InputText-First-React-app/index.html",
+    "static/js/2.835f8400.chunk.js.LICENSE.txt": "/InputText-First-React-app/static/js/2.835f8400.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97dceef2.js",
+    "static/js/2.835f8400.chunk.js",
+    "static/js/main.b9d39cf3.chunk.js"
+  ]
+}
