@@ -1,12 +1,12 @@
 import React from 'react'
-import About from './components/About'
+// import About from './components/About'
 import InputText from './components/InputText'
 import NavBar from './components/NavBar'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 
 const App = () => {
 
@@ -102,7 +102,7 @@ const App = () => {
   }
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <div className={`w-100 min-vh-100 position-relative`} style={{ backgroundColor: bgMode(mode), color: colorMode(mode) }}>
           <div className="position-absolute" style={{ top: 15, right: 2, zIndex: 10000000 }}>
             <div className="form-check form-switch" onClick={() => { changeMode() }}>
@@ -132,16 +132,16 @@ const App = () => {
           <NavBar {...navBarProps} />
           <div className="container">
 
-            
+          <InputText {...inputTextProps} />
 
-            <Routes>
+            {/* <Routes>
               <Route exact path="/" element={<InputText {...inputTextProps} />} />
               <Route exact path="/about" element={<About modeDefine={{bgMode:bgMode,colorMode:colorMode,Mode:mode}}/>} />
-            </Routes>
+            </Routes> */}
 
           </div>
         </div>
-      </Router>
+      {/* </Router> */}
     </>
   )
 }
