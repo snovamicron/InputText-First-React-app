@@ -1,0 +1,2 @@
+mode === "dark"?'#212529':'#f8f9fa'
+text-${mode === 'light'?'dark':'light'}
