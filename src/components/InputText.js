@@ -21,7 +21,7 @@ const InputText = (prop) => {
         setFont(input)
     }
     const textFilter = () => {
-        return text.split(" ").filter(e => e)
+        return text.split("/\s+/").filter(e => e)
     }
     const textCopy = () => {
         navigator.clipboard.writeText(text)
